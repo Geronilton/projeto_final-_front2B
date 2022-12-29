@@ -3,10 +3,60 @@
     <head>
         <title>jose maria soares</title>
         <style>
+            .conteiner
+            {
+                background-color: red;
+                padding: 10px;
+                height: 400px;
+                display: grid;
 
+                grid-template-areas: 
+                'header header header' 
+                'slidebar content content' 
+                'footer footer footer';
+
+                grid-template-rows: 100px auto 50px;
+            }
+            div
+            {
+                background-color: aqua;
+                padding: 15px;
+                border: 1px solid black;
+            }
+            #cabecalho
+            {
+                grid-area: header;
+            }
+            #menu
+            {
+                grid-area: slidebar;
+            }
+            #conteudo
+            {
+                grid-area: content;
+            }
+            #rodape
+            {
+                grid-area: footer;
+            }
         </style>
     </head>
     <body>
-        
+        <div>
+            <div class="conteiner">
+                <div id="cabecalho">
+                    <p>cabeçalho</p>
+                </div>
+                <div id="menu">
+                    <p>menu</p>
+                </div>
+                <div id="conteudo">
+                    <p>conteudo</p>
+                </div>
+                <div id="rodape">
+                    <p>rodapé</p>
+                </div>
+            </div> 
+        </div>
     </body>
 </html>
