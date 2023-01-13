@@ -7,10 +7,15 @@
     <link type="text/css" rel="stylesheet" href="css.css">
     <title>index</title>
     <style src="text/css">
+        .menu{
+            text-align: center;
+            margin: 1px;
+            border: 2px solid black;
+        }
         nav
         {
             border:2px solid black;
-            text-align: center;
+            align-items: center;
             grid-area: nav;
         }
         main
@@ -32,13 +37,42 @@
 <div class="conteiner">
     <header>
             <img class="Icabecalho" src="imagens/logo_IF.png"> 
-            <h1> cabecalho</h1>
+            <p><h1>SISTEMA DE ATIVIDADE COMPLEMENTAR</h1></p>
     </header>
     <nav>
-        <p>menu</p>
+        <div>
+            <ol>
+                <li  class="menu">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAONJREFUSEvtlesNwjAMhNsNWIEJgAmASYBJoJPQTQobsAErsAH4UFxFedmOlH+1hCoR976zdW37rnH1jfU7C2BFZiZn6EjXj8acFsDiWyf6oqsKogWMJHgKHOO/izSFBpASZ10RIgFupHQVXA50jr5klQBnuuMurcCdY1WYJqocwCLOoklICoCkII5IjqUQWyQLCZsrBNSKs2AE8QFw/K5wHk4JyJp+/wfRB2C0jWUnhV5o7VoCniR+CAG+oW/lJFFocjFdANnngA+WFYkrelDH3hjVOfuld5FRU26XPjiygtDxAx68JRkA+i0yAAAAAElFTkSuQmCC"/>
+                    <h5>HOME</h5>
+                </li>
+                <li  class="menu">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAN1JREFUSEvFk4ERgjAMRWECGcERdAQmUSdyBHEDR3AERnAENtDkrvUi99OkLT25y8EBfS9J075rfPWN+V2t4BwSnLREawQMvwXwhe5QUioYCPii2InMoaREwPCF4kDxFJI7PceWfb25AgZcKUaKWUgeCM6WHIHsOVcQJfvQLrjPXoGERxBLjim4twIE57Ww5+syrAomWnACtbvgVgXV8JRgE7gm0ODqaYXjE16iPXiDBUVwrYK1oBjuEVTBrSlKtdb9zToHbpD2418EaIpyKvlJ2jummwpyYOa/zffgA/h7JRlRE3qKAAAAAElFTkSuQmCC"/>
+                    <h5>CURSOS</h5>
+                </li>
+                <li  class="menu">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALpJREFUSEtjZKAxYKSx+Qx0t2AC0Ef+QKxAgc8eAPUmAvEBkBnIPgAZnk+BwchaQZYoolvwASjATyUL4GYj++A/FQ2nyIKDQN0JQAwKBoKAHB+AwpYow9HjgNgggjmKkHqwOnJ8MGoB0Qlj6MaBINCPoFxPFCAnFR0AmgwqzIjKC+RYQJTLYVkA2QKaF3YNQFvriXUeAXUPgfIK6DkZxAdZkgDE8hRYBDIcZAYoruhfZVLgcOxaaV7pAwBQjyQZ5xyisgAAAABJRU5ErkJggg=="/>
+                    <h5>CADASTRO</h5>
+                </li>
+                <li  class="menu">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARZJREFUSEvtVFENwjAQ3RwgAQfggKEAUIAEJDAcIGEoAAcMB+AACTiA90hvKeVu7RLG1y65NGtf3+u9XpdnPUfeM382CEQdtiwaYecWuXQMJ4w75CPKGAAsgStwkwBb43v+C4ECJGeDiAIUSg6tgtLZo5HQJq5bQWtpayUATYCAo8GwwjzvQwuSs/IpssF1uYOb2xwjJ65AvhvCEhhjbY9cOLaDs+busZcOwyk5+Qd5m4DhQjNNcrYxu41BW77ILQHewcaV6QvV+OAlc6TfHKWVVXJNoMLkOnJ86SQRIbxAqo/Qv4O27gk15T1QhGG+cF+AJc8ip5fli2KhutUXeCaSCyzpV/9XgY4FpMGTykyj0lGDQNS9F3XMLxmrBettAAAAAElFTkSuQmCC"/>
+                    <h5>PERFIL</h5>
+                </li>
+                <li  class="menu">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJJJREFUSEtjZKAxYKSx+Qy4LPgAtJifDMsxzMNlwX8yDAdpGbWAYMAN/iBKBPphPh5/UOwDkAEGQHwARzKmigUgDwhALdFH8w3RFhCMTaiCBUA6Hknx4LEAV06GuRAURPuh8YHsW6J9gM8CUCSDDAdZgg4otoDmyZRQ5FPsg1EL4CEwKCucj9iS7oBV+oRSC9HyAPmEGxlLFwImAAAAAElFTkSuQmCC"/>
+                    <h5>LOGIN</h5>
+                </li>
+                <li  class="menu">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKNJREFUSEtjZKAxYKSx+Qy4LDgAtNieRMtBehzR9eCy4D+JhsOUY5g3agHBIB80QZQIdOp8IiKe5Ej+CDTUAYgvADExKYskCy5CDf8AdTlVLVgANDSBiCABKUG2mGgf0NwCkKtA4Q7K+jQJIpi3QYaDLKFJJCNHAc2SKZHxDFdGdCQTkySxWT5qAcEoITqIQNUfqVXmQWjRguKKAav0CYYFsQoAYEEmGcn3EyMAAAAASUVORK5CYII="/>
+                    <h5>LOGOUT</h5>
+                </li>
+            </ol>
+                
+            </p>
+        </div>
     </nav>
     <main>
-        <p>conteudo</p>
+        
     </main>
     <aside>
         <p>destaques</p>
