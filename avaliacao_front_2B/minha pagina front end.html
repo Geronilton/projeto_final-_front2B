@@ -3,9 +3,9 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>PAGINA DE CADASTRO</title>
+    <title>Detalhe item</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css.css'>
     <script src='main.js'></script>
     <style src="text/css">
         *
@@ -13,72 +13,75 @@
             margin: 0;
             padding: 0;
         }
-        .conteiner
-        {
-            background-color: white;
-            text-align: center;
-            width: 100vw;
-            height: 100vh;
-
-            display: grid;
-            grid-template-areas: 
-            'header header header'
-            'nav main aside'
-            'footer footer footer';
-
-            grid-template-columns: 10% 60% 30%;
-            grid-template-rows: 10% 80% 10%;
-        }
         header
         {
             border:2px solid black;
             color: black;
-            background-color: white;
+            
             text-align: center;
             grid-area: header;
         }
         nav
         {
             border:2px solid black;
-            background-color: gray;
+            
             text-align: center;
             grid-area: nav;
         }
         main
         {
             border:2px solid black;
-            background-color: white;
-            text-align: center;
+
             color: black;
             grid-area: main;
         }
         aside
         {
             border:2px solid black;
-            background-color: gray;
+            
             text-align: center;
             grid-area: aside;
         }
-        footer
+
+
+        .img_header
         {
-            border:2px solid black;
-            background-color: white;
-            text-align: center;
-            grid-area: footer;
+            width: 300px;
+        }
+        .img_detalhe
+        {
+            width: 600px;
+        }
+        .div_detalhe
+        {
+            margin: 10px;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
         <header>
-            <img src="imagens/logo_IF.png">
-            <h1>cabeçalho</h1>
+            <div >
+                <!-- <img class="img_header" src="imagens/logo_IF.png">
+                <h1>cabeçalho</h1> -->
+            </div>
         </header>
         <nav>
             <p>menu</p>
         </nav>
         <main>
-            <p>conteudo</p>
+            <div class="div_detalhe">
+                <h1>Palestra</h1>
+<br>
+<hr>
+<br>
+                <img class="img_detalhe" src="imagens/img_conteudo.png" alt="imagem palestra">
+
+<br>
+<hr>
+<br>
+                <h2>Titulo palestra</h2>
+            </div>
         </main>
         <aside>
             <p>destaques</p>
