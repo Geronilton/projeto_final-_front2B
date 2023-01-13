@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     *{
         margin: 0;
         padding: 0;
@@ -32,24 +33,62 @@
         width: 120px;
         height: 120px;
     }
+=======
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+.conteiner
+{
+    background-color: white;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'nav main aside'
+    'footer footer footer';
+
+    grid-template-columns: 10% 60% 30%;
+    grid-template-rows: 10% 80% 10%;
+}
+>>>>>>> b5733d979d0ebced432d031eabb696e42e572806
 
 header
 {
     grid-area: header;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> b5733d979d0ebced432d031eabb696e42e572806
 
 }
 nav
 {
     grid-area: nav;
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5733d979d0ebced432d031eabb696e42e572806
 }
 
 main
 {
     grid-area: main;
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5733d979d0ebced432d031eabb696e42e572806
 }
 
 footer
 {
+    border:2px solid black;
+    
+    text-align: center;
     grid-area: footer;
 }
 aside
