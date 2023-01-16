@@ -1,66 +1,66 @@
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    .conteiner{
-        width: 100vw;
-        height: 100vh;
-        min-height: 100vh;
-        display: grid;
-        grid-template-areas: 
-        'header header header'
-        'nav main aside'
-        'footer footer footer';
-        grid-template-columns: 200px auto 300px;
-        grid-template-rows: 100px auto 100px;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: auto;
+    height: auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'nav main aside'
+    'footer footer footer';
+    grid-template-columns: 200px auto 300px;
+    grid-template-rows: 100px auto 100px;
+}
 /*essa e a parte do css do que coresponde ao cabecalho*/ 
-    header
-    { 
-        grid-area: header;
-        display: flex;
-        border:2px solid black;     
-    }
-    .Icabecalho{
-        width: 120px;
-        height: 120px;
-        border-right: 150px;
-    }
-    .Nsite{
-        color: green;
-        border-top: -10px;
-    }
-/*essa e a parte do css que coresponde ao rodape*/
-    footer{
-        border:2px solid black;
-        text-align: center;
-        grid-area: footer;
-    }
+header
+{ 
+    grid-area: header;
+    display: flex;
+    border:2px solid black;     
+}
+.Icabecalho{
+    width: 120px;
+    height: 120px;
+    border-right: 150px;
+}
+.Lsite{
+    color: green;
+    border-top: -10px;
+}
 /*essa parte esta responsavel pelo menu do site*/
-    nav
-    {
-        border:2px solid black;
-        align-items: center;
-        grid-area: nav;
-    }
-    .menu{
-        text-align: center;
-        margin-left: 10px;
-    }
+nav
+{
+border:2px solid black;
+align-items: center;
+grid-area: nav;
+}
+.menu{
+text-align: center;
+margin-left: 10px;
+}
+/*essa e a parte do css que coresponde ao rodape*/
+footer{
+    border:2px solid black;
+    text-align: center;
+    grid-area: footer;
+}
 main
 {
-    grid-area: main;
+grid-area: main;
 }
 
 footer
 {
-    border:2px solid black;
-    
-    text-align: center;
-    grid-area: footer;
+border:2px solid black;
+
+text-align: center;
+grid-area: footer;
 }
 aside
 {
-    grid-area: aside;
+grid-area: aside;
 }

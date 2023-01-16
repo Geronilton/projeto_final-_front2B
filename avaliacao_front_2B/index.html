@@ -12,7 +12,16 @@
             border:2px solid black;
             text-align: center;
             color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .noticia{
 
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            margin-left: 10px;
         }
         aside
         {
@@ -24,8 +33,11 @@
 <body>
 <div class="conteiner">
     <header>
+        
             <img class="Icabecalho" src="imagens/logo_IF.png">
-            <h1 class="Nsite">SISTEMA DE ATIVIDADE COMPLEMENTAR</h1>            
+        <div class="Lsite">
+            <h1 >SISTEMA DE ATIVIDADE COMPLEMENTAR</h1>      
+        </div>      
     </header>
     <nav>
         <div>
@@ -66,10 +78,73 @@
         </div>
     </nav>
     <main>
-        
+       <table>
+           <tr>
+               <td class="noticia">
+                    <p>noticia 1</p>
+                </td>
+                <td class="noticia">
+                    <p>noticia 2</p>
+                </td>
+                <td class="noticia">
+                    <p>noticia 3</p>
+                </td>
+           </tr>
+           <tr>
+                <td class="noticia">
+                    <p>noticia 4</p>
+                </td>
+                <td class="noticia">
+                    <p>noticia 5</p>
+                </td>
+                <td class="noticia">
+                    <p>noticia 6</p>
+                </td>
+           </tr>
+           <tr>
+               <td class="noticia">
+                    <p>noticia 7</p>
+                </td>
+                <td class="noticia">
+                    <p>noticia 8</p>
+                </td>
+                <td class="noticia">
+                    <p>noticia 9</p>
+                </td>
+           </tr>
+       </table>
     </main>
     <aside>
-        <p>destaques</p>
+        <h2>FILTRO</h2>
+        <div>
+            <p>Areas :</p> 
+        <br/>
+            <input type="checkbox" id="opcao1" name="OPCAO1" value="opcao1">
+            <label for="opcao1">OPÇÃO 1</label>
+        <br/>
+            <input type="checkbox" id="opcao2" name="OPCAO2" value="opcao2">
+            <label for="opcao2">OPÇÃO 2</label>
+        <br/>
+            <input type="checkbox" id="opcao3" name="OPCAO3" value="opcao3">
+            <label for="opcao3">OPÇAO 3</label>
+        <br/>
+        </div>
+        <div>
+        <p>Publico :</p> 
+        <br/>
+            <input type="checkbox" id="opcao1" name="OPCAO1" value="opcao1">
+            <label for="opcao1">OPÇÃO 1</label>
+        <br/>
+            <input type="checkbox" id="opcao2" name="OPCAO2" value="opcao2">
+            <label for="opcao2">OPÇÃO 2</label>
+        <br/>
+            <input type="checkbox" id="opcao3" name="OPCAO3" value="opcao3">
+           <label for="opcao3">OPÇAO 3</label>
+        <br/>
+        </div>
+        <div>
+            <button type="button" id="filtro" name="FILTRO" value="filtro">FILTRO</button>
+        </div>
     </aside>
     <footer>
         <p>Rodapé</p>
