@@ -12,7 +12,7 @@
     'header header header'
     'nav main aside'
     'footer footer footer';
-    grid-template-columns: 200px auto 300px;
+    grid-template-columns: 150px auto 500px;
     grid-template-rows: 250px auto 100px;
 }
 /*essa e a parte do css do que coresponde ao cabecalho*/ 
