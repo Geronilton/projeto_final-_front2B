@@ -13,19 +13,18 @@
     'nav main aside'
     'footer footer footer';
     grid-template-columns: 200px auto 300px;
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 250px auto 100px;
 }
 /*essa e a parte do css do que coresponde ao cabecalho*/ 
 header
 { 
     grid-area: header;
-    display: flex;
-    border:2px solid black;     
+    text-align: center;     
 }
 .Icabecalho{
+    margin-top: 10px;
     width: 120px;
     height: 120px;
-    border-right: 150px;
 }
 .Lsite{
     color: green;
@@ -34,7 +33,6 @@ header
 /*essa parte esta responsavel pelo menu do site*/
 nav
 {
-border:2px solid black;
 align-items: center;
 grid-area: nav;
 }
@@ -51,14 +49,6 @@ footer{
 main
 {
 grid-area: main;
-}
-
-footer
-{
-border:2px solid black;
-
-text-align: center;
-grid-area: footer;
 }
 aside
 {
