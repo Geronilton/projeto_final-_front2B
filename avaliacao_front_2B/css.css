@@ -18,6 +18,7 @@
 /*essa e a parte do css do que coresponde ao cabecalho*/ 
 header
 { 
+    background-color: green;
     grid-area: header;
     text-align: center;     
 }
@@ -27,7 +28,7 @@ header
     height: 120px;
 }
 .Lsite{
-    color: green;
+    color: black;
     border-top: -10px;
 }
 /*essa parte esta responsavel pelo menu do site*/
@@ -42,6 +43,7 @@ margin-left: 10px;
 }
 /*essa e a parte do css que coresponde ao rodape*/
 footer{
+    background-color: green;
     border:2px solid black;
     text-align: center;
     grid-area: footer;
