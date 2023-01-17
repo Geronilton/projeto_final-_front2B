@@ -12,7 +12,7 @@
     'header header header'
     'nav main aside'
     'footer footer footer';
-    grid-template-columns: 200px auto 300px;
+    grid-template-columns: 200px auto 200px;
     grid-template-rows: 250px auto 100px;
 }
 /*essa e a parte do css do que coresponde ao cabecalho*/ 
@@ -29,11 +29,12 @@ header
 }
 .Lsite{
     color: black;
-    border-top: -10px;
+    margin-top: 10px;
 }
 /*essa parte esta responsavel pelo menu do site*/
 nav
 {
+    border: 1px solid black;
 align-items: center;
 grid-area: nav;
 }
