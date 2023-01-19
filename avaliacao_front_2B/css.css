@@ -16,8 +16,7 @@
     grid-template-rows: 250px auto 100px;
 }
 /*essa e a parte do css do que coresponde ao cabecalho*/ 
-header
-{ 
+header{ 
     background-color: green;
     grid-area: header;
     text-align: center;     
@@ -32,15 +31,13 @@ header
     margin-top: 10px;
 }
 /*essa parte esta responsavel pelo menu do site*/
-nav
-{
-    /*border: 1px solid black;*/
-align-items: center;
-grid-area: nav;
+nav{
+    align-items: center;
+    grid-area: nav;
 }
 .menu{
-text-align: center;
-margin-left: 10px;
+    text-align: center;
+    margin-left: 10px;
 }
 /*essa e a parte do css que coresponde ao rodape*/
 footer{
@@ -49,11 +46,9 @@ footer{
     text-align: center;
     grid-area: footer;
 }
-main
-{
-grid-area: main;
+main{
+    grid-area: main;
 }
-aside
-{
-grid-area: aside;
+aside{
+    grid-area: aside;
 }
