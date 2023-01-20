@@ -12,7 +12,7 @@
     'header header header'
     'nav main aside'
     'footer footer footer';
-    grid-template-columns: 250px auto 250px;
+    grid-template-columns: 300px auto 500px;
     grid-template-rows: 250px auto 100px;
 }
 /*essa e a parte do css do que coresponde ao cabecalho*/ 
@@ -51,4 +51,87 @@ main{
 }
 aside{
     grid-area: aside;
+}
+
+main
+{   
+    color: black;
+    grid-area: main;
+}
+.img_detalhe
+{
+    width: 600px;
+}
+.div_main
+{
+    margin: 10px;
+}
+.div_inscricao
+{
+    background-color: beige;
+    width: 350px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
+    height: 90px;
+    padding: 1%;
+}
+.sub_inscricao
+{
+    background-color: azure;
+    text-align: center;
+    display: flex;
+    height: 59px;
+   
+}
+.p_inscricao
+{
+    background-color:dimgray;
+    color: white;
+    border: 1px black solid;
+    width: 130px;
+    height: 30px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.div_detalhes
+{
+    background-color: beige;
+    border: 2px black solid;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+.sub_detalhe
+{
+    background-color: azure;
+   
+    
+   
+}
+.div_requisitos
+{
+    background-color: beige;
+    border: 2px black solid;
+    width: 350px;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub_requisitos
+{
+    background-color: azure;
+    text-align: center;
+    display: flex;
+    
+}
+
+ul
+{
+    margin-left: 7%;
 }
