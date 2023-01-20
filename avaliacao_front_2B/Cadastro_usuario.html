@@ -14,41 +14,12 @@
             margin: 20px;
             color: black;
         }
-    
-        .noticia{
+        .formulario{
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            flex-direction: column;
+            /*justify-content: space-around;*/
             align-items: center;
             height: 300px;
-        }
-        .not4{
-           /* border: 1px solid black;*/
-            width: 85%;
-            height: 100%;
-            text-align: justify;
-            display: flex;
-        }
-        .informi{
-            width: 80%;
-            height: 100%;
-            margin: 10px;
-        }
-        .not1.not2.not3.not5{    
-            width: 100px;
-            height: 100px;
-        }
-        .img1{
-            width: 200px;
-            height: 200px;
-            padding: 10px;
-        }
-        .not-img{
-            width: 40%;
-            height: 100%;
-        }
-        aside{
-            text-align: center;
         }
     </style>
 </head>
@@ -84,7 +55,42 @@
             </div>
         </nav>
         <main>
-
+            <form class="formulario" method="get" >
+                <div>
+                    <h4>NOME</h4>
+                    <input type="text" name="OPCAO1" placeholder="nome"> 
+                </div>              
+            <br/>
+                <div>
+                    <h4>CPF</h4>
+                    <input type="text" name="OPCAO2" placeholder="CPF"> 
+                </div>              
+            <br/>
+                <div>
+                    <h4>matricula do if</h4>
+                    <input type="text" id="opcao2" name="OPCAO2" placeholder="matricula do if">  
+                </div>             
+            <br/>
+                <div>
+                    <h4>telefone</h4>
+                    <input type="tel" id="opcao2" name="OPCAO2" placeholder="telefone"> 
+                </div>               
+            <br/>
+                <div>
+                    <h4>e-mail</h4>
+                    <input type="email" id="opcao2" name="OPCAO2" placeholder="email">    
+                </div>            
+            <br/>
+                <div>
+                    <h4>senha</h4>
+                    <input type="password" id="opcao2" name="OPCAO2" placeholder="senha">   
+                </div>             
+            <br/>
+                <div>
+                    <h4>confirmar senha</h4>
+                    <input type="password" id="opcao2" name="OPCAO2" placeholder="confirmar senha">  
+                </div>             
+        </form>
         </main>
         <aside>
             <!--AQUI NAO VAI NADA, LA ELE-->
