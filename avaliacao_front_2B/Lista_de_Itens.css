@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: auto;
+    height: auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'nav main aside'
+    'footer footer footer';
+    grid-template-columns: 250px auto 250px;
+    grid-template-rows: 250px auto 100px;
+}
+/*essa e a parte do css do que coresponde ao cabecalho*/ 
+header{ 
+    background-color: green;
+    grid-area: header;
+    text-align: center;     
+}
+.Icabecalho{
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+}
+.Lsite{
+    color: black;
+    margin-top: 10px;
+}
+/*essa parte esta responsavel pelo menu do site*/
+nav{
+    align-items: center;
+    grid-area: nav;
+}
+.menu{
+    text-align: center;
+    margin-left: 10px;
+}
+/*essa e a parte do css que coresponde ao rodape*/
+footer{
+    background-color: green;
+    border:2px solid black;
+    text-align: center;
+    grid-area: footer;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
