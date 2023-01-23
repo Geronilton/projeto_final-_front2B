@@ -8,18 +8,20 @@
     <link rel='stylesheet' type='text/css' media='screen' href='Index.css'>
     <script src='main.js'></script>
     <style src="text/css">
-        main{  
-            background-color: green;
-            border: 1px solid black;         
+        main{         
             margin: 20px;
-            color: black;
+            /*color: black;*/
         }
         .formulario{
             display: flex;
             flex-direction: column;
-            /*justify-content: space-around;*/
             align-items: center;
             height: 300px;
+        }
+        .campos{
+            padding: 10px;
+            background-color: green;
+            color: white;
         }
     </style>
 </head>
@@ -33,63 +35,69 @@
             </div>      
         </header>
         <nav>
-            <div>
-                <a  class="menu">
-                    <h5>HOME</h5>
-                </a>
-                <a  class="menu">
+            <div class="menu-s">
+                <div class="menu">
+                    <a href="index.html" rel="pagina inicial"> <h5>HOME</h5> </a>
+                </div>
+                <div class="menu">
                     <h5>CURSOS</h5>
-                </a>
-                <a  class="menu">
-                    <h5>CADASTRO</h5>
-                </a>
-                <a  class="menu">
-                    <h5>PERFIL</h5>
-                </a>
-                <a  class="menu">
+                </div>
+                <div class="menu">
+                    <a href="Cadastro_usuario.html" rel="pagina de cadastro"> <h5>CADASTRO</h5> </a>
+                </div>
+                <div class="menu">
+                    <a href="autenticacao.html" rel="pagina de entrada do usuario"><h5>PERFIL</h5></a>
+                </div>
+                <div class="menu">
                     <h5>LOGIN</h5>
-                </a>
-                <a class="menu">
+                </div>
+                <div class="menu">
                     <h5>LOGOUT</h5>
-                </a>
+                </div>
             </div>
         </nav>
         <main>
             <form class="formulario" method="get" >
-                <div>
+                <div class="campos">
                     <h4>NOME</h4>
                     <input type="text" name="OPCAO1" placeholder="nome"> 
                 </div>              
             <br/>
-                <div>
+                <div class="campos">
                     <h4>CPF</h4>
                     <input type="text" name="OPCAO2" placeholder="CPF"> 
                 </div>              
             <br/>
-                <div>
-                    <h4>matricula do if</h4>
+                <div class="campos">
+                    <h4>MATRICULA DO IF</h4>
                     <input type="text" id="opcao2" name="OPCAO2" placeholder="matricula do if">  
                 </div>             
             <br/>
-                <div>
-                    <h4>telefone</h4>
+                <div class="campos">
+                    <h4>TELEFONE</h4>
                     <input type="tel" id="opcao2" name="OPCAO2" placeholder="telefone"> 
                 </div>               
             <br/>
-                <div>
-                    <h4>e-mail</h4>
+                <div class="campos">
+                    <h4>E-MAIL</h4>
                     <input type="email" id="opcao2" name="OPCAO2" placeholder="email">    
                 </div>            
             <br/>
-                <div>
-                    <h4>senha</h4>
+                <div class="campos">
+                    <h4>SENHA</h4>
                     <input type="password" id="opcao2" name="OPCAO2" placeholder="senha">   
                 </div>             
             <br/>
-                <div>
-                    <h4>confirmar senha</h4>
+                <div class="campos">
+                    <h4>CONFIRMAR SENHA</h4>
                     <input type="password" id="opcao2" name="OPCAO2" placeholder="confirmar senha">  
-                </div>             
+                </div>
+            <br/>
+                <div class="campos">
+                    <h4>ENVIAR</h4>
+                    <input type="button" id="enviar-1" name="enviar-1" value=" ENVIAR " >
+
+                </div>
         </form>
         </main>
         <aside>
