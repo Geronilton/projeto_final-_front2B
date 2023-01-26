@@ -43,6 +43,7 @@ nav{
     background-color: grey;
     color: white;
     border-radius: 20px;
+    text-decoration: none;
 }
 /*essa e a parte do css que coresponde ao rodape*/
 footer{

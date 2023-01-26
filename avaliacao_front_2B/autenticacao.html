@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>autenticação</title>
     <link rel="stylesheet" type='text/css' media='screen' href="Index.css">
+    <style type="text/css">
+        main
+        {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        .div_autenticacao
+        {
+             background-color:rgb(192, 189, 189);
+            width: 400px;
+            text-align: center;
+            height: 400px;
+            padding:30px;
+        }
+    </style>
 </head>
 <body>
     <div class="conteiner">
@@ -40,17 +56,27 @@
         <main>
             <div class="div_autenticacao">
                 <h1>Autenticação</h1>
+
                 <div class="div_login">
+<br>
+
+
                     
                     <form action="pagina.php" method="get"></form>
-                    <p>Login</p>
-                        <input type="email" id="email" name="email" value="">
-                        <label for="email"></label>
+                        <p>Login:</p>
+                            <input type="email" id="email" name="email" value="">
+                            <label for="email"></label>
 <br>
 <br>                    
-                        <p>Senha</p>
-                        <input type="password" id="senha" name="senhaUsuario" value="">
-                        <label for="senha"></label>
+                        <p>Senha:</p>
+                            <input type="password" id="senha" name="senhaUsuario" value="">
+                            <label for="senha"></label>
+<br>
+                            <button>
+                                <input type="button" id="botao" name="butao">
+                                <label for="botao">Autenticar</label>
+                            </button>
+                    </form>
                 </div>
             </div>
         </main>
