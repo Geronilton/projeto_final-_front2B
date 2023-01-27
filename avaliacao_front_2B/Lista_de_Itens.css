@@ -13,11 +13,11 @@
     'nav main aside'
     'footer footer footer';
     grid-template-columns: 300px auto 500px;
-    grid-template-rows: 250px auto 100px;
+    grid-template-rows: 200px auto 100px;
 }
 /*essa e a parte do css do que coresponde ao cabecalho*/ 
 header{ 
-    background-color: green;
+    background-color: black;
     grid-area: header;
     text-align: center;     
 }
@@ -27,26 +27,49 @@ header{
     height: 120px;
 }
 .Lsite{
-    color: black;
+    color: white;
     margin-top: 10px;
 }
 /*essa parte esta responsavel pelo menu do site*/
 nav{
-    align-items: center;
+    margin: 10px;
+    text-align: center;
     grid-area: nav;
+    padding: 10px;
 }
 .menu{
     margin: 10px;
     padding: 10px;
-    background-color: green;
+    background-color: grey;
     color: white;
     border-radius: 20px;
     text-decoration: none;
 }
+.botao
+{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.espaco{
+    margin-left: 5px;
+
+}
+.menu_link :hover{
+    color: white;
+    text-decoration: none;
+}
+.menu_link:visited{
+    color: white;
+    text-decoration: none;
+}
+.menu_link :link{
+    color: white;
+    text-decoration: none; 
+}
 /*essa e a parte do css que coresponde ao rodape*/
 footer{
-    background-color: green;
-    border:2px solid black;
+    background-color: black;
     text-align: center;
     grid-area: footer;
 }
