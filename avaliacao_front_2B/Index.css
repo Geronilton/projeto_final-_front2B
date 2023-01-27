@@ -47,8 +47,7 @@ nav{
 }
 /*essa e a parte do css que coresponde ao rodape*/
 footer{
-    background-color: green;
-    border:2px solid black;
+    background-color: black;
     text-align: center;
     grid-area: footer;
 }
@@ -61,14 +60,14 @@ aside{
 }
 .filtro{
     border: 1px solid black;
-    background-color: green;
+    background-color: gray;
     padding: 10px;
 }
 .busca{
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
-    background-color: green;
+    background-color: gray;
     float: left;
     padding-left: 5px;
     font-size: 18px;
@@ -83,23 +82,18 @@ aside{
     margin-left: 5px;
 
 }
-
-a:hover{
+.menu_link :hover{
     color: white;
     text-decoration: none;
 }
-
-a:visited{
+.menu_link:visited{
     color: white;
     text-decoration: none;
 }
-
-a:link{
+.menu_link :link{
     color: white;
     text-decoration: none; 
 }
-
-
 
 @media (max-width: 500px) {
     .conteiner{
